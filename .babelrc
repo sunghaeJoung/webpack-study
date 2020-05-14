@@ -1,0 +1,6 @@
+// 바벨 자체로는 아무것도 동작하지 않기 때문에 플러그인을 설치하여 동작하게 해야 한다.
+// preset기능은 플러그인들을 포함한 번들러로 매번 플러그인을 설치 및 등록하기 번거롭기 때문에 한번 설정하면 플러그인들이 자동으로 설치된다.
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["react-hot-loader/babel"]
+}
